@@ -41,7 +41,7 @@ class _MeetingCreatorState extends State<MeetingCreator> {
 
   final String clientId = '-1DVXpWjN1JpMSdqINrBdbvNdxv2pHzyAbwT35qZZmk';
   
-  final String redirectUri = 'https://api.calendly.com/event_types/ABC123';
+  final String redirectUri = 'myapp://callback';
   final String authorizationEndpoint = 'https://auth.calendly.com/oauth/authorize';
   final String tokenEndpoint = 'https://auth.calendly.com/oauth/token';
   final String eventTypesEndpoint = 'https://api.calendly.com/event_types';
